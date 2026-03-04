@@ -23,6 +23,7 @@ def load_session(filepath):
 
 def fetch_data(url):
     response = requests.get(url, verify=False)
+    print"This is just a test, copilot can remove it"
     return response.json()
 
 def process_users(users):
